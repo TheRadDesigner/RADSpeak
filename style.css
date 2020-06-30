@@ -1,81 +1,75 @@
+/* CSS Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
-    font-family: Helvetica, Arial;
-    background-color: #333;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-#container {
-    width: 960px;
-    margin: 10px auto;
-    border: 1px solid #444;
-    padding: 0;
-    background-color: #fff;
-}
+/* Global */
 
-.logo {
-    width: 75px;
-    margin: 20px 0px 00px 20px;
-}
-
-#nav {
-    background-color: #333;
-}
-
-#nav ul {
-    list-style-type: none
-    margin: 0;
-    padding: 10px 0px;
-}
-
-#nav ul li {
-    display: inline;
-    border-right: 1px solid #ccc;
-    padding: 0px 20px;
-}
-
-#nav ul li a {
-    text-decoration: none;
-    color: #fff;
+p {
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15px;
 }
 
 h1 {
-    margin: 0px 0px 15px 0px;
-    padding: 0;
-    font-weight: 400;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 40px;
 }
 
-#content {
-    padding: 20px;
-    overflow: hidden;
-
+h2 {
+	font-weight: 400;
+	font-style: normal;
+	font-size: 25px;
 }
 
-#content img {
-    float: left;
-    height: 270px;
-    margin-right: 40px;
-    padding: 10px;
-    border: 1px solid #eee;
-    box-shadow: 10px 10px 10px #ddd;
-}
-
-#content h2 {
-    color: rgb(98,170,47);
-    font-size: 42px;
-    text-align: center;
-    padding-top: 25px;
-}
-
-#footer {
-    clear: both;
-    background-color: rgb(71, 89, 64);
-    padding: 10px;
-    margin-top: 20px;
-    font-size: 11px;
-    letter-spacing: 1px;
-    color: #ddd;
-}
-
-#footer p {
-    text-align: center;
-    color: #eee;
+h3 {
+	font-weight: 700;
+	font-style: normal;
+	font-size: 20px;
 }
