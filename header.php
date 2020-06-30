@@ -18,6 +18,7 @@
         <!-- Font Awesome -->
         <script src="https://kit.fontawesome.com/b5b3cdde7f.js" crossorigin="anonymous"></script>
     </head>
+    <body>
     <header>
         <div class="col-lg-2">
         </div>
@@ -35,5 +36,3 @@
         <div class="col-lg-2">
         </div>
     </header>
-    <body>
-    
